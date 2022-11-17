@@ -5,18 +5,19 @@
     box-sizing:border-box;
 }
 body {
-    font-family: 'Montserrat';
+    margin: auto;
+    width: 640px; 
+    padding: 30px;
+    font-family: 'Lexend Deca', sans-serif; 
     color: #2E475D;  
+    background-image: url('lime2.jpeg');
   }
 .container
 {
     width: 400px;
-    margin: auto;
-    margin-top: 100px;
     background-color: beige;
     border-radius: 4px;
     overflow: hidden;
-
 }
 .container_Home
 {
@@ -37,7 +38,7 @@ padding: 20px 40px;
 }
 .form-control{
     margin-bottom: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
     position:relative
 }
 .form-control label{
